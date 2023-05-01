@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Virtual Pet</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <main class="pet-container">
+      <img
+        src="https://www.thesprucepets.com/thmb/APYdMl_MTqwODmH4dDqaY5q0UoE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/all-about-tabby-cats-552489-hero-a23a9118af8c477b914a0a1570d4f787.jpg"
+        alt="pet"
+      />
+      <section>
+        class="status-container">
+        <p>Name: <span id="pet-name">Teetee</span></p>
+        <p>Mood: <span id="mood">Sad</span></p>
+        <p>Hunger <span id="hunger-level">50%</span></p>
+      </section>
+      <section class="action-container">
+        <button id="feed-button">Feed</button>
+        <button id="play-button">Play</button>
+      </section>
+    </main>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
