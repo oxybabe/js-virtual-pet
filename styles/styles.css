@@ -3,9 +3,13 @@ h1 {
     text-align: center;
     font-color: #5838e7;
     font-weight: bold;
+    font-size: 60px;
     letter-spacing: 5px;
     line-height: 2.8;
-    text-decoration: wavy;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+    text-decoration-color:blanchedalmond;
 
 }
 body {
@@ -13,7 +17,7 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     text-align: center;
     font-weight: bold;
-
+    font-size: 20px;
 }
 button {
     background-color:rgb(255, 234, 0);
